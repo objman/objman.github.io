@@ -12,6 +12,10 @@ angular.module('alessandroApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/contatti', {
+        templateUrl: 'views/contatti.html',
+        controller: 'ContattiCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
